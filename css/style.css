@@ -1,0 +1,120 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	background-color: yellowgreen;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+
+.primary-heading{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 50px;
+	font-family: Times New Roman;
+	color: #0611F3;
+	padding: 20px;
+}
+.primary-heading img{
+	width: 55px;
+}
+.wrapper{
+	width: 400px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 20px auto 0px;
+	padding: 40px;
+}
+.main-form{
+	width: 100%;
+}
+.main-form .avatar{
+	width: 100%;
+	text-align: center;
+}
+.main-form .avatar img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 1px solid #000;
+}
+.main-form h1{
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+.main-form .form-group{
+	width: 100%;
+	margin: 13px 0px 0px;
+	text-align: center;
+}
+.main-form .form-group label{
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: left;
+}
+.main-form .form-group .from-control{
+	width: 94%;
+	padding: 10px;
+	border-radius: 6px;
+	border: 1px solid #000;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	text-transform: capitalize;
+	text-align: left;
+}
+.main-form .form-group .primary-button{
+	padding: 10px 100px;
+	border-radius: 10px;
+	border: 2px solid #000;
+	background: #ffba00;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.main-form .form-group .primary-button:hover ,.secondary-button:hover{
+	color: #fff;
+	cursor: pointer;
+	opacity: 0.9;
+}
+.main-form .form-group .pass-reset{
+	text-decoration: none;
+	font-size: 17px;
+	color: #1877f2;
+}
+.main-form .form-group .pass-reset:hover{
+	text-decoration: underline;
+}
+.main-form .form-group .secondary-button{
+	padding: 10px 70px;
+	border-radius: 10px;
+	border: 2px solid #000;
+	background: #1877f2;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.Contact{
+	display: block;
+	font-size: 35px;
+	margin: 160px 0px 0px;
+}
+.Contact a{
+	text-decoration: none;
+}
+.Contact a img{
+	width: 35px;
+}
